@@ -1,6 +1,8 @@
 package entradaSaidaDados_scan;
 import java.util.Locale;
 
+// Exercício para manipular saída de dados
+
 public class exercicioPrintOut {
 
 	public static void main(String[] args) {

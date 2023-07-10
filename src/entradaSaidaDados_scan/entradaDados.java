@@ -5,8 +5,9 @@ public class entradaDados {
 
 	public static void main(String[] args) {
 	
-// Para a entrada de dados sempre é necessário instanciar
-// um objeto do tipo Scanner e importar a classe do java.util
+/*
+	Para a entrada de dados sempre é necessário instanciar um objeto do tipo Scanner e importar a classe do java.util
+*/		
 		
 		Scanner sc = new Scanner(System.in);
 		
@@ -14,12 +15,13 @@ public class entradaDados {
 		x = sc.next();
 		System.out.println("Você digitou: " + x);
 		
-// Para entrada inteiro, usar 'sc.nextInt()'
-// Para entrada double, usar 'sc.nextDouble'
-// Para entrada char, usar 'sc.next().charAt(0)'
-// Para o programa ler todos os dados informados até dar enter
-// usar: 'sc.nextLine();'. Se o nextLine for usado em conjunto
-// com qualquer sc, ele deve ser duplo:
+/* 
+	Para entrada inteiro, usar 'sc.nextInt()'
+	Para entrada double, usar 'sc.nextDouble'
+	Para entrada char, usar 'sc.next().charAt(0)'
+	Para o programa ler todos os dados informados até dar enter	usar: 'sc.nextLine();'.
+	Se o nextLine for usado em conjunto com qualquer sc, ele deve ser duplo:
+*/		
 		
 		String s1;
 		int y;
@@ -31,8 +33,10 @@ public class entradaDados {
 		System.out.println("Você digitou: " + s1);
 		System.out.println("Você digitou: " + y);
 		
-// ao final do programa, sempre se encerra o scanner criado
-// com o seguinte comando:
+/*
+ 	Ao final do programa, sempre se encerra o scanner criado com o seguinte comando:
+*/
+		
 		sc.close();
 	}
 

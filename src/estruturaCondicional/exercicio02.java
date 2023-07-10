@@ -2,6 +2,10 @@ package estruturaCondicional;
 
 import java.util.Scanner;
 
+/*
+	Fazer um programa para ler um número inteiro e dizer se este número é par ou ímpar.
+ */
+
 public class exercicio02 {
 
 	public static void main(String[] args) {

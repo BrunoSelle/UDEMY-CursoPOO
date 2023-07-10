@@ -2,6 +2,13 @@ package estruturaCondicional;
 
 import java.util.Scanner;
 
+/*
+
+	Com base na tabela, escreva um programa que leia o código de um item e a quantidade
+	deste item. A seguir, calcule e mostre o valor da conta a pagar.
+
+*/
+
 public class exercicio05 {
 
 	public static void main(String[] args) {

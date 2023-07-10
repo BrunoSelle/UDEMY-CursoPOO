@@ -2,6 +2,12 @@ package estruturaRepetitivaFor;
 
 import java.util.Scanner;
 
+/*
+ 
+ 	Ler um número inteiro N e calcular todos os seus divisores.
+
+ */
+
 public class ExFor06 {
 
 	public static void main(String[] args) {
